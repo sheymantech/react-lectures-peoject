@@ -114,6 +114,8 @@ function Footer() {
   const closeHour = 22;
   const isOpen = hour >= openHour && hour <= closeHour;
   console.log(typeof isOpen);
+  console.log(openHour);
+  console.log(closeHour);
   return (
     <footer className="footer">
       {isOpen ? (
